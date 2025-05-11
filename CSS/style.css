@@ -20,10 +20,23 @@ main{
     object-position: 50% 15%;
 }
   
+/*sm*/
+@media (max-width: 639px) {
+  .sm{
+    margin-top: 15%;
+  }
+}
+
+/*lg*/
 @media (min-width: 992px){
     .videoCont{
         max-height: 550px;
         object-fit: cover;
         object-position: 50% 13%;
     }
+
+    .tamaño{
+        width: 30%;
+    }
 }
+
