@@ -20,6 +20,15 @@ main{
     object-position: 50% 15%;
 }
   
+.centrado {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.just{
+    text-align: justify;
+}
+
 /*sm*/
 @media (max-width: 639px) {
   .sm{
@@ -36,7 +45,7 @@ main{
     }
 
     .tamaño{
-        width: 30%;
+        width: 40%;
     }
 
     .cardtamaño{
