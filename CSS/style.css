@@ -38,5 +38,9 @@ main{
     .tamaño{
         width: 30%;
     }
+
+    .cardtamaño{
+        width: 50%;
+    }
 }
 
